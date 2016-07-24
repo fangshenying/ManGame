@@ -23,7 +23,7 @@ public class Game extends JFrame {
 		if (jButton1 == null) {
 			jButton1 = new JButton();
 			jButton1.setBounds(new Rectangle(478, 361, 164, 51));
-			jButton1.setText("重新开始");
+			//jButton1.setText("重新开始");
 			jButton1.setVisible(false);
 			jButton1.addActionListener(new java.awt.event.ActionListener() {
 				public void actionPerformed(java.awt.event.ActionEvent e) {
